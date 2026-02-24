@@ -4,7 +4,7 @@
 [![GitHub Downloads](https://img.shields.io/github/downloads/hi-upchen/alfred-lookaway/total)](https://github.com/hi-upchen/alfred-lookaway/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-Control [LookAway](https://lookaway.app) break reminders directly from Alfred.
+[LookAway](https://lookaway.app) is a fantastic Mac app that reminds you to take screen breaks and protect your eyes. [Alfred](https://www.alfredapp.com/) is the productivity app we can't live without. This workflow brings them together — start breaks, postpone them, or pause reminders without ever leaving your keyboard.
 
 ![Screenshot](images/screenshot.png)
 
