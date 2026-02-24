@@ -34,7 +34,7 @@
 				<false/>
 			</dict>
 		</array>
-		<key>SF-LOOK0-0000-0000-000000000002</key>
+		<key>SF-LKAWAY-0000-0000-000000000003</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
@@ -47,7 +47,7 @@
 				<false/>
 			</dict>
 		</array>
-		<key>SF-LKAWAY-0000-0000-000000000003</key>
+		<key>SF-LOOK0-0000-0000-000000000002</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
@@ -123,6 +123,29 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>./run_command.sh "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>ACTION-0000-0000-0000-000000000004</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -168,6 +191,27 @@
 			<string>SF-LOOK0-0000-0000-000000000002</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>LookAway</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>NOTIF-0000-0000-0000-000000000005</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -218,76 +262,11 @@
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>./run_command.sh "{query}"</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>ACTION-0000-0000-0000-000000000004</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<true/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>{query}</string>
-				<key>title</key>
-				<string>LookAway</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>NOTIF-0000-0000-0000-000000000005</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>SF-LA000-0000-0000-000000000001</key>
-		<dict>
-			<key>xpos</key>
-			<integer>100</integer>
-			<key>ypos</key>
-			<integer>100</integer>
-		</dict>
-		<key>SF-LOOK0-0000-0000-000000000002</key>
-		<dict>
-			<key>xpos</key>
-			<integer>100</integer>
-			<key>ypos</key>
-			<integer>250</integer>
-		</dict>
-		<key>SF-LKAWAY-0000-0000-000000000003</key>
-		<dict>
-			<key>xpos</key>
-			<integer>100</integer>
-			<key>ypos</key>
-			<integer>400</integer>
-		</dict>
 		<key>ACTION-0000-0000-0000-000000000004</key>
 		<dict>
 			<key>xpos</key>
@@ -299,6 +278,27 @@
 		<dict>
 			<key>xpos</key>
 			<integer>600</integer>
+			<key>ypos</key>
+			<integer>250</integer>
+		</dict>
+		<key>SF-LA000-0000-0000-000000000001</key>
+		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
+			<key>ypos</key>
+			<integer>100</integer>
+		</dict>
+		<key>SF-LKAWAY-0000-0000-000000000003</key>
+		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
+			<key>ypos</key>
+			<integer>400</integer>
+		</dict>
+		<key>SF-LOOK0-0000-0000-000000000002</key>
+		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
 			<key>ypos</key>
 			<integer>250</integer>
 		</dict>
